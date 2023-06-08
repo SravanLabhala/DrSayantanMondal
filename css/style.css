@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat+Alternates:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"); /* font-family: 'Poppins', sans-serif;  */
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+#wrapper {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1300px;
+  margin: 0% auto;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.items-center {
+  align-items: center;
+}
+/* # NAVBAR  */
+.nav-bar {
+  width: 100%;
+  height: auto;
+  /* background-color: bisque; */
+  margin: 10px;
+  margin-top: 20px;
+}
+.menu-sec a {
+  padding: 8px 22px;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.menu-sec ul li {
+  margin: 0px;
+}
+.logo h1 {
+  font-family: "Oswald", sans-serif;
+}
+.logo {
+}
+.menu-sec {
+}
+
+/* # HERO SECTION STARTS  */
+.hero-sec {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.hero {
+  background-color: #0c111b;
+  border-radius: 15px;
+  position: relative;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+.hero-content {
+  color: #fff;
+  width: 750px;
+  padding-left: 80px;
+}
+.hero-content h2 {
+  font-size: 52px;
+}
+.hero-content h2 span {
+  background-color: #24e465;
+  color: black;
+  transform: rotate(5deg);
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 42px;
+}
+.hero-content h2 span h2 {
+  padding: 0px 15px;
+}
+.hero-content p {
+  font-size: 18px;
+  color: #dadada;
+  margin-top: 10px;
+}
+.hero-img {
+  width: 630px;
+  overflow: hidden;
+  position: absolute;
+  top: -5px;
+  right: -228px;
+}
+.hero-img img {
+}
+.btn {
+  padding: 8px 35px;
+  background-color: #24e465;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* ABOUT US SECTION STARTS */
+.about-us-sec {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.about {
+}
+.about-img {
+  width: 630px;
+}
+.about-img img {
+  width: 630px;
+}
+.about-content {
+  width: 630px;
+}
+.about-content span {
+  color: #24e465;
+  font-weight: 700;
+  font-size: 20px;
+}
+.about-content h3 {
+  font-size: 32px;
+}
+.about-content p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.about-content a {
+  margin-top: 20px;
+}
+
+/* EXPLORE SECTION */
+.explore-sec {
+  margin-bottom: 200px;
+}
+.mutiple-cards {
+}
+.explore-head {
+  margin-bottom: 50px;
+}
+.explore-head h2 {
+  font-size: 32px;
+}
+.card {
+  background-color: #0c111b;
+  width: 413px;
+  height: 413px;
+  position: relative;
+}
+.card-content {
+  background-color: #fff;
+  width: 323px;
+  position: absolute;
+  bottom: -44px;
+  right: 0px;
+  box-shadow: 3px 3px 10px #e4e4e4;
+  padding: 15px 30px;
+}
+.card-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-content a {
+  color: #24e465;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+/* publications-sec */
+.publications-sec {
+  margin-bottom: 200px;
+}
+.publications-head {
+}
+.mutiple-books {
+  margin-top: 60px;
+}
+.book {
+  width: 187px;
+  box-shadow: 3px 3px 10px #e4e4e4;
+  padding: 15px;
+  border-radius: 20px;
+}
+.book img {
+}
+.book h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* FOOTER STARTS  */
+.footer {
+  margin-bottom: 20px;
+}
+.sk-line {
+  margin-bottom: 30px;
+}
+.footer-logo h1 {
+  font-family: "Oswald", sans-serif;
+}
+.footer-menu {
+  margin-right: 80px;
+}
+.footer-menu a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 22px;
+  /* background-color: red; */
+  /* padding: 10px; */
+  margin: 5px 10px;
+  line-height: 100px;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+}
+.pp {
+  margin-right: 25px;
+}
+.fb {
+  background-color: #3b5998;
+}
+.fb-btn {
+  position: relative;
+  top: 5px;
+}
+.yt {
+  background-color: #ff0000;
+}
+.ig {
+  background-color: #ff0084;
+}
+.tw {
+  background-color: #55acee;
+}
+.foot-content p {
+  font-weight: 500;
+}
+/* FOOTER ENDS  */
